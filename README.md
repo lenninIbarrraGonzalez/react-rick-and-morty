@@ -1,8 +1,35 @@
-# React + Vite
+# Proyecto realizado en React JS y Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Comenzando 🚀
 
-Currently, two official plugins are available:
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+### Pre-requisitos 📋
+
+_clona el proyecto_
+
+### Instalación 🔧
+
+_npm install_
+
+## Despliegue 📦
+
+_Luego ejecuta npm run preview_
+
+## ver en github page 📦
+
+https://lenninibarrragonzalez.github.io/react-rick-and-morty/
+
+## Construido con 🛠️
+
+- [React JS](https://es.reactjs.org/)
+
+## Autores ✒️
+
+- **Lennin Ibarra** - _Front-end developer_ - [Lennin Ibarra](https://github.com/lenninIbarrraGonzalez)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](https://wikis.fdi.ucm.es/ELP/Licencia_MIT) para detalles
