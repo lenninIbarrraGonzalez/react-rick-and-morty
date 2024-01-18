@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function NavPage(props) {
   const { limitPage } = useCharacter();
   const params = new URLSearchParams(window.location.search);
-  let page = parseInt(params.get("page"), 10);
+  let page = parseInt(params.get("page") || 1, 10);
   const nextPage = page < limitPage ? page + 1 : 1;
 
   return (
@@ -27,7 +27,7 @@ function NavPage(props) {
       >
         Siguiente: {props.page + 1}
       </button>
-      <a href={`/?page=${nextPage}`}>Siguiente</a>
+      {/* <a href={`/?page=${nextPage}`}>Siguiente</a> */}
     </div>
   );
 }

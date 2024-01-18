@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 function useCharacter() {
   const params = new URLSearchParams(window.location.search);
-  let historyPage = parseInt(params.get("page"), 10);
+  let historyPage = parseInt(params.get("page") || 1, 10);
+
   const [loading, setLoading] = useState(true);
   const [characters, setCharacters] = useState([]);
   const [page, setPage] = useState(historyPage);
